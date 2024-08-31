@@ -54,7 +54,7 @@ body {
     font-size: 1.1em;
     font-weight: bold;
     margin-top: 10px;
-    background-color: green; /* This will add a grey background to the entire line */
+    background-color: #f0f0f0; /* This will add a grey background to the entire line */
     padding: 5px 0; /* This will add some vertical padding */
 }
 .book .author { color: #777777; } 
