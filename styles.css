@@ -9,7 +9,7 @@ body {
 /* Book Library Container */
 .book-library {
     background-color: #ffffff;
-    max-width: 1200px;
+    max-width: 12000;
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
@@ -17,6 +17,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+	flex-direction: column;
+	
 }
 
 /* Book Styling */
@@ -28,6 +30,7 @@ body {
     text-align: center;
     width: 200px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	
 }
 
 .book img {
@@ -47,8 +50,10 @@ body {
 }
 
 .book .price-block {
-    color: #2ecc71;
+    color: white;
     font-size: 1.1em;
     font-weight: bold;
     margin-top: 10px;
+    background-color: green; /* This will add a grey background to the entire line */
+    padding: 5px 0; /* This will add some vertical padding */
 }
